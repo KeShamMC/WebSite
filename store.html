@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Store | FireMC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="fade-in">
+    <h1>🛒 FireMC Store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="store.html">Store</a>
+    </nav>
+  </header>
+
+  <main class="slide-up">
+    <div class="coins">💰 Coins: <span id="coinBalance">1000</span></div>
+    <div class="shop">
+      <div class="item-card">
+        <h3>VIP Rank</h3>
+        <p>500 Coins</p>
+        <button onclick="buyItem(500)">Buy</button>
+      </div>
+      <div class="item-card">
+        <h3>Crate Key x3</h3>
+        <p>300 Coins</p>
+        <button onclick="buyItem(300)">Buy</button>
+      </div>
+      <div class="item-card">
+        <h3>Fly Access</h3>
+        <p>750 Coins</p>
+        <button onclick="buyItem(750)">Buy</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="fade-in">
+    <p>&copy; 2025 FireMC Server</p>
+  </footer>
+
+  <script src="coins.js"></script>
+</body>
+</html>
